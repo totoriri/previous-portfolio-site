@@ -7,6 +7,57 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>hi world</h1>
+
+        <!-- <h1 onmouseover="handleMouseOver()" onmouseout="handleMouseout()">Title</h1>
+        <button onclick="handleClick()">Click this button</button>
+    
+        <form>
+          <input id="NameInput" onfocus="handleFocus()" onblur="handleBlur()" onkeypress="handleInputChange(event)" type="text" name="name" placeholder="ex: Ayako" />
+          <button onclick="handleFormClick(event)">Submit</button>
+        </form>
+    
+        <ul id="NameLists">
+          <li>Isao</li>
+        </ul>
+    
+
+    <script src ="index.js"></script>
+     <script src="html5_events.js"></script> --> 
+
+    <style>
+    .firstform{
+      display:flex;
+      flex-direction: column;
+      width:200px;
+      margin:0 auto;
+    }
+    button{
+      margin:10px;
+    }
+      </style>
+
+     <script>
+     const hundleSubmit = (event) => {
+      //  this will stop refreshing page
+      event.preventDefault();
+      console.log("button Clicked!!");
+
+     }
+    </script>
+
+    <form  class="firstform"　onsubmit= "handleSubmit(event)"　action="https://formspree.io/tktk11217@gmail.com" method="POST">
+    <label for="">Name:</label>
+    <input type="text" name="first name" placeholder="ex:sam" reqired/>
+    <label for="">Surname:</label>
+    <input type="text" name="surname" placeholder="ex:sam" / autofocus >
+    <label for="">Email:</label>
+    <input type="email" name="e-mail">
+    <label for="">Password:</label>
+    <input type="password">
+    <label for="">Phone number:</label>
+    <input type="tel" name="phone number">
+    <input type="submit" value="submit">
+    <button disabled type="submit">submit with botton tag</button>
+    </form>
 </body>
 </html>
