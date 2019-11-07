@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+
+    <!-- font-awsome -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#"><img src="images/home-icon.png" class="home-icon" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <!-- ml-auto 追加で、nav-bar 右端寄せ -->
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item "> 
+                  <a data-scroll class="nav-link" href="#banner">HOME <span class="sr-only">(current)</span></a>
+                  <!-- <a class="nav-link" href="#banner">HOME <span class="sr-only">(current)</span></a> -->
+                </li>
+                <li class="nav-item">
+                  <a data-scroll class="nav-link" href="#about-me">ABOUT ME</a>
+                  <!-- <a class="nav-link" href="#about-me">ABOUT ME</a> -->
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#works">WORKS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#contact-me" >CONTACT</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </section>
+
+    
+    <!-- banner sectiom -->
+    <section id="banner">
+      <div class="container">
+        <div class="row">
+          <div class ="col-md-8">
+            <h1 class="promo-title"><span>Hi,there!!</span></h1>
+            <p class="promo-title">I'm a front end developer <br>based in vancouver</p>
+          </div>
+          <div class="col-md-3 text-center">
+              <div class="arrow">
+                  <a data-scroll href="#about-me">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  </a>
+              </div>
+          </div>
+          
+        </div>
+      </div>
+      <img src="images/wave.png" alt="bottom-img" class="bottom-img">
+    </section>
+
+<!-- about me -->
+<section id="about-me"　>
+  <div class="container">
+    <h1 class="title text-center">ABOUT ME</h1>
+    <div class="row">
+        <div class="col-md-6 text-center">
+          <div class="backshadow1">
+            <div class="backshadow2">
+          <!-- img-fluidってクラス消すと、画像サイズがとてつもなく大きくなった。なぜ？bootstrapにおける、imgfluidって何？？ -->
+            <img src="images/risa-photo2.jpg"  class="risa-photo img-fluid ml-auto" alt="risa-phto">
+          </div>
+        </div>
+        </div>
+      <div class="col-md-6 about-me">
+        <p class="about-title"># who i am??</p>
+        <p class="my-descripttion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto praesentium dolor ipsa, deserunt eveniet laudantium illo accusantium earum unde esse consectetur natus nihil repudiandae corporis sed fugiat facilis ducimus commodi.</p>
+        <p class="about-title"># what is my speciality??</p>
+        <ul>
+          <li>html</li>
+          <li>css</li>
+          <li>ccccccccccccccccccccccc</li>
+          <li>ccccccccccccccccccccccc</li>
+          <li>ccccccccccccccccccccccc</li>
+          <li>ccccccccccccccccccccccc</li>
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+    <!-- work section -->
+
+    <section id="works"　>
+      <div class="container text-center">
+        <h1 class="title">WORKS</h1>
+        <div class="row">
+          <div class="col-md-4 works">
+            <img src="images/work1.png" alt="work1" class="work-img">
+            <h4>work1</h4>
+            <p>aaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+          </div>
+          <div class="col-md-4 works">
+              <img src="images/work1.png" alt="work1" class="work-img">
+              <h4>work2</h4>
+              <p>aaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+            </div>
+            <div class="col-md-4 works">
+                <img src="images/work1.png" alt="work1" class="work-img">
+                <h4>work3</h4>
+                <p>aaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+              </div>
+        </div>
+        <button type="button" class="btn btn-primary">All works</button>
+      </div>
+    </section>
+
+    
+    <!-- social media section-->
+    <section id="contact-me">
+    <div class="container text-center">
+      <h1 class="title">CONTACT ME</h1>
+      <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam error quod reprehenderit sapiente assumenda reiciendis officiis rerum suscipit ab recusandae est incidunt accusantium officia iure, blanditiis neque soluta aspernatur architecto!</p>
+      <div class="social-icons">
+        <a href="#"><img src="images/facebbok-icons.png" alt="icons"></a>
+        <a href="#"><img src="images/facebbok-icons.png" alt="facebookicons"></a>
+        <a href="#"><img src="images/facebbok-icons.png" alt="facebookicons"></a>
+        <a href="#"><img src="images/facebbok-icons.png" alt="facebookicons"></a>
+      </div>
+   
+    </div>
+  </section>
+
+  <!-- footer -->
+    <section id="footer">
+      <img src="images/wave-copy.png" class="footer-img" alt="">
+      <div class="container">
+        
+        <p class="copyright text-center">website created by risa</p>
+      </div>
+    </section>
+
+</body>
+</html>
