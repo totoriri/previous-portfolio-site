@@ -147,28 +147,25 @@
 }
 
 
-.img-fluid{
-    margin-left:50px;
-}
 .risa-photo{
     margin:0 auto;
-    width:410px;
-    height:405px;
+    width:380px;
+    height:395px;
     /* border-radius: 50% 50% 50% 70%/50% 50% 70% 60% ; */
     border-radius: 55% 45% 43% 57% / 49% 50% 50% 51% ;
 }
 
 .backshadow1{
     background-color: rgba(218, 205, 133, 0.322);
-    width:448px;
-    height:450px;
+    width:418px;
+    height:440px;
     border-radius: 80% 30% 50% 50%/50% ;
 }
 
 .backshadow2{
     background-color: rgba(212, 110, 144, 0.541);
-    width:480px;
-    height:400px;
+    width:450px;
+    height:390px;
     border-radius: 45% 55% 30% 64% / 43% 42% 58% 57% ;
 }
 
