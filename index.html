@@ -19,25 +19,21 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
 
     <!-- font-awsome -->
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     
 </head>
 <body>
     <section id="nav-bar">
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#"><img src="images/home-icon.png" class="home-icon" alt="logo"></a>
+            <a class="navbar-brand "  href="#"><img src="images/home-icon.png" class="home-icon" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <!-- ml-auto 追加で、nav-bar 右端寄せ -->
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item "> 
-                  <a data-scroll class="nav-link" href="#banner">HOME <span class="sr-only">(current)</span></a>
-                  <!-- <a class="nav-link" href="#banner">HOME <span class="sr-only">(current)</span></a> -->
-                </li>
+              <ul class="navbar-nav  ml-auto">
                 <li class="nav-item">
-                  <a data-scroll class="nav-link" href="#about-me">ABOUT ME</a>
+                  <a class="nav-link" href="#about-me">ABOUT ME</a>
                   <!-- <a class="nav-link" href="#about-me">ABOUT ME</a> -->
                 </li>
                 <li class="nav-item">
@@ -62,7 +58,7 @@
           </div>
           <div class="col-md-3 text-center">
               <div class="arrow">
-                  <a data-scroll href="#about-me">
+                  <a href="#about-me">
                   <span></span>
                   <span></span>
                   <span></span>
@@ -76,12 +72,11 @@
     </section>
 
 <!-- about me -->
-<section id="about-me" data-aos="fade-up"
-　>
-  <div class="container">
-    <h1 class="title text-center">ABOUT ME</h1>
+<section id="about-me">
+  <div class="container text-center">
+    <h1 class="title" data-aos="fade-up">* ABOUT ME *</h1>
     <div class="row">
-        <div class="col-md-6 text-center">
+        <div class="col-md-4 col-sm-6 col text-center" data-aos="fade-up">
           <div class="backshadow1">
             <div class="backshadow2">
           <!-- img-fluidってクラス消すと、画像サイズがとてつもなく大きくなった。なぜ？bootstrapにおける、imgfluidって何？？ -->
@@ -89,7 +84,7 @@
           </div>
         </div>
         </div>
-      <div class="col-md-6 about-me">
+      <div class="col-md-4 col-sm-6 about-me" data-aos="fade-up">
         <p class="about-title"># who i am??</p>
         <p class="my-descripttion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto praesentium dolor ipsa, deserunt eveniet laudantium illo accusantium earum unde esse consectetur natus nihil repudiandae corporis sed fugiat facilis ducimus commodi.</p>
         <p class="about-title"># what is my speciality??</p>
@@ -110,27 +105,26 @@
 
     <!-- work section -->
 
-    <section id="works"　data-aos="fade-up">
+    <section id="works"　>
       <div class="container text-center">
-        <h1 class="title">WORKS</h1>
+        <h1 class="title" data-aos="fade-up">* WORKS *</h1>
         <div class="row">
-          <div class="col-md-4 works">
-            <img src="images/work1.png" alt="work1" class="work-img">
+          <div class="col-md-4　col-sm-6  works" data-aos="zoom-in">
+            <img src="https://user-images.githubusercontent.com/48052036/67151713-c071df00-f27e-11e9-9eef-0f62615e1489.png" alt="work1" class="work-img">
             <h4>work1</h4>
             <p>aaaaaaaaaaaaaaaaaaaaaaaaaa</p>
           </div>
-          <div class="col-md-4 works">
-              <img src="images/work1.png" alt="work1" class="work-img">
+          <div class="col-md-4 col-sm-6 works" data-aos="zoom-in">
+              <img src="https://user-images.githubusercontent.com/48052036/67151713-c071df00-f27e-11e9-9eef-0f62615e1489.png" alt="work1" class="work-img">
               <h4>work2</h4>
               <p>aaaaaaaaaaaaaaaaaaaaaaaaaa</p>
             </div>
-            <div class="col-md-4 works">
-                <img src="images/work1.png" alt="work1" class="work-img">
+            <div class="col-md-4 col-sm-6 works" data-aos="zoom-in">
+                <img src="https://user-images.githubusercontent.com/48052036/67151713-c071df00-f27e-11e9-9eef-0f62615e1489.png" alt="work1" class="work-img">
                 <h4>work3</h4>
                 <p>aaaaaaaaaaaaaaaaaaaaaaaaaa</p>
               </div>
         </div>
-        <button type="button" class="btn btn-primary">All works</button>
       </div>
     </section>
 
@@ -138,13 +132,13 @@
     <!-- social media section-->
     <section id="contact-me" data-aos="fade-up">
     <div class="container text-center">
-      <h1 class="title">CONTACT ME</h1>
+      <h1 class="title">* CONTACT ME *</h1>
       <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam error quod reprehenderit sapiente assumenda reiciendis officiis rerum suscipit ab recusandae est incidunt accusantium officia iure, blanditiis neque soluta aspernatur architecto!</p>
+      <a href="mailto:tktk11217@gmail.com" class="email-button">Send!</a>
       <div class="social-icons">
-        <a href="#"><img src="images/facebbok-icons.png" alt="icons"></a>
-        <a href="#"><img src="images/facebbok-icons.png" alt="facebookicons"></a>
-        <a href="#"><img src="images/facebbok-icons.png" alt="facebookicons"></a>
-        <a href="#"><img src="images/facebbok-icons.png" alt="facebookicons"></a>
+        <a href="#" class="hi-icon"><i class="fab fa-github"></i></a>
+        <a href="#" class="hi-icon"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="hi-icon"><i class="fab fa-instagram"></i></a>
       </div>
    
     </div>
@@ -155,35 +149,11 @@
       <img src="images/wave-copy.png" class="footer-img" alt="">
       <div class="container">
         
-        <p class="copyright text-center">website created by risa</p>
+        <p class="copyright text-center">&copy;2019 Risa Takata</p>
       </div>
     </section>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({
-  // Global settings:
-  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-  initClassName: 'aos-init', // class applied after initialization
-  animatedClassName: 'aos-animate', // class applied on animation
-  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
-  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
-  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
-  
-
-  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-  offset: 120, // offset (in px) from the original trigger point
-  delay: 0, // values from 0 to 3000, with step 50ms
-  duration: 400, // values from 0 to 3000, with step 50ms
-  easing: 'ease', // default easing for AOS animations
-  once: false, // whether animation should happen only once - while scrolling down
-  mirror: false, // whether elements should animate out while scrolling past them
-  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
-
-});
-  </script>
-
+    <script src="js/aos_init.js"></script>
 </body>
 </html>
