@@ -181,8 +181,7 @@
 #contact-me p{
     /* なんでtext-alignではダメで、margin:0 autoだとオッケーだったんだろう？ */
     margin:0 auto;
-    width:400px;
-    height:150px;
+    width:70%;
     word-wrap: break-word;
 }
 
