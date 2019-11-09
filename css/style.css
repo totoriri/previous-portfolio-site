@@ -131,9 +131,9 @@
     font-weight:100;
     margin-top:3%;
     margin-bottom: 8%;
-    border-bottom: 5px solid rgb(218, 84, 128);
+    /* border-bottom: 5px solid rgb(218, 84, 128);
     display: inline-block;
-    
+     */
     font-family: 'Caveat Brush', cursive;
 }
 
@@ -161,10 +161,9 @@
 }
 
 #works img{
-    width:300px;
+    width:200px;
     height:300px;
 }
-
 
 
 .works h4{
