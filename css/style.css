@@ -211,10 +211,9 @@
 
 
 
-/* .social-icons {
-	text-align: center;
+ .social-icons {
 	padding: 2em 0 3em;
-} */
+} 
 
 .hi-icon {
 	display: inline-block;
@@ -230,11 +229,11 @@
 	color:rgb(255, 187, 0);
 }
 
-/* .social-icons a:hover{
+.social-icons a:hover{
     transform:translateY(-10px);
     transition-duration: 0.5s;
     color:rgb(252, 146, 164);
-} */
+}
  
 
 
@@ -268,9 +267,7 @@
     background-color:#F39C12;
 }
 
-hr{
-    background-color: white;
-}
+
 
 .copyright{
     margin-bottom: 0px;
