@@ -17,9 +17,9 @@
     padding:0 !important;
 }
 
-.navbar-brand img{
-    height:50px;
-    width:70px;
+.fa-th{
+    font-size:50px;
+    color:rgb(246, 122, 6);
 }
 
 .navbar-nav li {
@@ -48,6 +48,8 @@
     width:60px;
     height: 60px;
 }
+
+
 
 /* ---- banner section  -------------------------------------------------- */
 #banner{
@@ -200,11 +202,11 @@
     text-decoration: none;
     }
   
- .social-icons {
+ .social-media{
 	padding: 2em 0 3em;
 } 
 
-.hi-icon {
+.hi-icon{
 	display: inline-block;
 	font-size: 60px;
 	cursor: pointer;
