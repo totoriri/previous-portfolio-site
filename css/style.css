@@ -220,11 +220,16 @@
 	color:rgb(255, 187, 0);
 }
 
-.social-icons a:hover{
+#contact-me a:hover{
     transform:translateY(-10px);
     transition-duration: 0.5s;
     color:rgb(252, 146, 164);
 }
+/* .social-icons a:hover{
+    transform:translateY(-10px);
+    transition-duration: 0.5s;
+    color:rgb(252, 146, 164);
+} */
  
 
 
